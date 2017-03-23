@@ -11,7 +11,7 @@ sudo apt-get install git-lfs
 sudo git lfs install
 
 info 'Updating repo with lfs'
+sudo eval $(ssh-agent -s)
 sudo ssh-keygen -R github.com
 sudo ssh-add
-ssh-add
 git lfs pull
