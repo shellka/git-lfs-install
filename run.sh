@@ -8,8 +8,8 @@ sudo apt-get update
 info 'Installing lfs'
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt-get install git-lfs
-git lfs install
+sudo git lfs install
 
 info 'Updating repo with lfs'
-ssh-keygen -R github.com
-git lfs fetch
+sudo ssh-keygen -R github.com
+sudo git lfs pull
