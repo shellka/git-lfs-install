@@ -1,0 +1,7 @@
+name: git-lfs-installer
+version: "0.1"
+description: Install git-lfs and update repository (only for github)
+keywords:
+  - Git
+  - Github
+  - Lfs
