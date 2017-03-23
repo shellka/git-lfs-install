@@ -12,4 +12,6 @@ sudo git lfs install
 
 info 'Updating repo with lfs'
 sudo ssh-keygen -R github.com
-sudo git lfs pull
+sudo ssh-add
+ssh-add
+git lfs pull
