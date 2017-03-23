@@ -11,4 +11,5 @@ sudo apt-get install git-lfs
 git lfs install
 
 info 'Updating repo with lfs'
+ssh-keygen -R github.com
 git lfs fetch
